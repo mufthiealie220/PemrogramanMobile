@@ -18,8 +18,8 @@ class _ProdukDetailState extends State<ProdukDetail> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Detail Produk Athaya'),
-        backgroundColor: Colors.grey,
+        title: const Text('Detail Produk Alie'),
+        backgroundColor: const Color.fromARGB(255, 15, 236, 225),
         ),
       
       body: Center(

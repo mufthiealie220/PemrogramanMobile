@@ -16,8 +16,8 @@ class _ProdukPageState extends State<ProdukPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('List Produk Athaya'),
-        backgroundColor: Colors.grey,
+        title: const Text('List Produk Alie'),
+        backgroundColor: const Color.fromARGB(255, 15, 236, 225),
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 20.0),

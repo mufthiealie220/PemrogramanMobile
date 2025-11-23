@@ -27,7 +27,7 @@ class _ProdukFormState extends State<ProdukForm> {
   isUpdate() {
     if (widget.produk != null) {
       setState(() {
-        judul = "Ubah Produk Athaya";
+        judul = "Ubah Produk Alie";
         tombolSubmit = "UBAH";
         _kodeProdukTextboxController.text = widget.produk!.kodeProduk!;
         _namaProdukTextboxController.text = widget.produk!.namaProduk!;
@@ -35,7 +35,7 @@ class _ProdukFormState extends State<ProdukForm> {
             .toString();
       });
     } else {
-      judul = "Tambah Produk Athaya";
+      judul = "Tambah Produk Alie";
       tombolSubmit = "SIMPAN";
     }
   }
@@ -45,7 +45,7 @@ class _ProdukFormState extends State<ProdukForm> {
     return Scaffold(
       appBar: AppBar(
         title: Text(judul),
-        backgroundColor: Colors.grey,
+        backgroundColor: const Color.fromARGB(255, 15, 236, 225),
         ),
       body: SingleChildScrollView(
         child: Padding(
